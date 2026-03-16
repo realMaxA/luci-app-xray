@@ -18,8 +18,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - arch: x86_64
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/x86/64
+          - arch: aarch64_cortex-a53
+            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/mediatek/filogic
             sdk_name: -sdk-23.05.5-x86-64_
 
     env:
